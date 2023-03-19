@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BonusObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossDeath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BossObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyDeath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="General_Function.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreatObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseOject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BonusObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossDeath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="General_Function.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreatObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mainFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyDeath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BossObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="aircraftSpriteSheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bluebullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bonus1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BonusStarLife.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="boss.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bossbullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bossdeath.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bullet1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bullet2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enemybullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enemydeath.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="enemySpriteSheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gg1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="intro.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="main_injured.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mainDeath.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="perfectBK.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pinkbullet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pressStoPlay.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="asphal8Deadmau.mp3" />
+    <Media Include="explosion.mp3" />
+    <Media Include="gameover.mp3" />
+    <Media Include="m_background.mp3" />
+    <Media Include="m_boss_death.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="m_deploy_missile.mp3" />
+    <Media Include="m_enemybullet.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="m_enemydeath.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="m_get_item.mp3" />
+    <Media Include="m_intro.mp3" />
+    <Media Include="m_main_death.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="m_main_injured.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="PlayForReal.mp3" />
+    <Media Include="success_elegant.mp3" />
+    <Media Include="throughTheGatesAsphalt8AirborneOST.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="JosefinSans-SemiBold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libmodplug-1.dll" />
+    <None Include="libogg-0.dll" />
+    <None Include="libopus-0.dll" />
+    <None Include="libopusfile-0.dll" />
+    <None Include="libtiff-5.dll" />
+    <None Include="libwebp-7.dll" />
+    <None Include="README.md" />
+    <None Include="SDL2.dll" />
+    <None Include="SDL2_image.dll" />
+    <None Include="SDL2_mixer.dll" />
+    <None Include="SDL2_ttf.dll" />
+  </ItemGroup>
+</Project>
